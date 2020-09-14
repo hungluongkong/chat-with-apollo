@@ -1,0 +1,15 @@
+@import '../../theme/theme';
+
+.input-field {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0;
+  flex-grow: 1;
+}
+
+.input {
+  border: none;
+  border-bottom: $border-color 1px solid;
+  padding: 5px 2px;
+}
